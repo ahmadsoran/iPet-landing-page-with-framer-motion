@@ -67,7 +67,7 @@ export default function Client() {
 
                         } />
                     </SwiperSlide> <SwiperSlide>
-                        <Cards imgSrc={WithPet3 as string} h1='Mary Jordan' p='saying thanl you not enough! We sincerely thank the entire staff of the iPet verterinary clinic which employs highly qualified doctors' HtmlElement={<Rating ratingValue={99} allowHover={true} fillColor='gold' allowHalfIcon={true} transition={true} size={'clamp(2rem , 2vw , 2vw)' as string & number}></Rating>
+                        <Cards imgSrc={WithPet3 as string} h1='Mary Jordan' p='saying thanl you not enough! We sincerely thank the entire staff of the iPet veterinary clinic which employs highly qualified doctors' HtmlElement={<Rating ratingValue={99} allowHover={true} fillColor='gold' allowHalfIcon={true} transition={true} size={'clamp(2rem , 2vw , 2vw)' as string & number}></Rating>
 
                         } />
                     </SwiperSlide> <SwiperSlide>

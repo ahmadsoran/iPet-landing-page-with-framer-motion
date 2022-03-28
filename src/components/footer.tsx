@@ -80,7 +80,7 @@ export default function Footer() {
             </div>
             <div className="prv-police flex-btween">
                 <p>privce police</p>
-                <p>&copy; {new Date(Date.now()).getFullYear()} iPet verterinary </p>
+                <p>&copy; {new Date(Date.now()).getFullYear()} iPet veterinary </p>
             </div>
             <div className="alert">
                 <p>this website made only for training purposes designed by  <strong>

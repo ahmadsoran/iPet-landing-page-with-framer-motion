@@ -1,5 +1,5 @@
 
-#      <center>iPet verterinary landing page</center>
+#      <center>iPet veterinary landing page</center>
  - react js
  - scss
  - framer motion for oage transition 

@@ -11,7 +11,7 @@ export default function OnlineConsultation() {
                 <div className="col-md-6">
                     <div className="online-consultation-text-side">
                         <h1>Online <br /> Consultation</h1>
-                        <p>peompt verterinary care whatever you are, book an online video chat with one of our emergency vets and talk through youe concerns from the comfort of your own home</p>
+                        <p>peompt veterinary care whatever you are, book an online video chat with one of our emergency vets and talk through youe concerns from the comfort of your own home</p>
                         <button className='my-c-btn'>Make an apointments <span><i className="fa-solid fa-phone"></i></span></button>
                         <i className="fa-solid fa-headphones-simple headphones"></i>
 
