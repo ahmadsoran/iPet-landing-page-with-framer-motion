@@ -8,10 +8,10 @@
  <div>
  <center>
  <span>
- ![desktop](assets/img/ipet-desktop.PNG)
+ ![desktop](https://github.com/ahmadsoran/iPet-landing-page-with-framer-motion/blob/master/src/assets/img/ipet-desktop.PNG?raw=true)
  </span>
   <span>
- ![mobile](assets/img/ipet-mobile.PNG)
+ ![mobile](https://github.com/ahmadsoran/iPet-landing-page-with-framer-motion/blob/master/src/assets/img/ipet-desktop.PNG?raw=true)
  </span>
 
  </center>
