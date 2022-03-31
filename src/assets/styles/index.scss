@@ -26,7 +26,7 @@ html{
 body {
     min-width: 200px;
     cursor: url('../img/defaultCursor.png') 15 0, auto;
-    overflow-x: hidden;
+    overflow-x: hidden !important;
 
 }
 #root{
@@ -511,6 +511,7 @@ nav[data-selected-link = '/contact']{
 
 #section--3{
     background-color: $white;
+    overflow-x: hidden;
 }
 .online-consultation-img-side{
     display: flex;
