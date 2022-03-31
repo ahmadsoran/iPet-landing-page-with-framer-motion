@@ -11,7 +11,7 @@ import { InView } from 'react-intersection-observer'
 
 export default function Doctors() {
     return (
-        <InView threshold={0.15} triggerOnce={true}>
+        <InView threshold={0.10} triggerOnce={true}>
             {({ ref, inView }) => (
                 <section ref={ref} className='my-container' id='section--4'>
                     <motion.header initial={{ opacity: 0, y: 50 }} animate={{ opacity: inView ? 1 : 0, y: inView ? 0 : 50 }} transition={{

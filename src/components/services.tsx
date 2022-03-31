@@ -8,7 +8,7 @@ function Services() {
 
     return (
 
-        <InView threshold={0.35} triggerOnce={true}>
+        <InView threshold={0.10} triggerOnce={true}>
             {({ ref, inView }) => (
                 <section ref={ref} className="my-container" id='section--2'>
                     <motion.div initial={{ opacity: 0, y: 50 }} animate={{ opacity: inView ? 1 : 0, y: inView ? 0 : 50 }} transition={{
