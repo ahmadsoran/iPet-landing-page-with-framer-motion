@@ -1,5 +1,5 @@
 import React from 'react'
-import dogWithHeadSet from '../assets/img/dogWithHeadset.png'
+import dogWithHeadSet from '../../assets/img/dogWithHeadset.png'
 import { motion } from 'framer-motion'
 import { InView } from 'react-intersection-observer'
 export default function OnlineConsultation() {

@@ -27,12 +27,12 @@ a, button {
 }
 
 ::-moz-selection {
-  background-color: #1fb99556;
+  background-color: rgba(31, 185, 149, 0.337254902);
   color: rgba(31, 31, 31, 0.76);
 }
 
 ::selection {
-  background-color: #1fb99556;
+  background-color: rgba(31, 185, 149, 0.337254902);
   color: rgba(31, 31, 31, 0.76);
 }
 
@@ -41,12 +41,12 @@ a, button {
 }
 
 ::-webkit-scrollbar-track {
-  background-color: #f5f5f500;
+  background-color: rgba(245, 245, 245, 0);
 }
 
 ::-webkit-scrollbar-thumb {
-  background: -webkit-gradient(linear, left top, right top, from(#1fb995cb), to(#0d382ec9));
-  background: linear-gradient(to right, #1fb995cb, #0d382ec9);
+  background: -webkit-gradient(linear, left top, right top, from(rgba(31, 185, 149, 0.7960784314)), to(rgba(13, 56, 46, 0.7882352941)));
+  background: linear-gradient(to right, rgba(31, 185, 149, 0.7960784314), rgba(13, 56, 46, 0.7882352941));
   border-radius: 0.5rem;
 }
 
@@ -168,7 +168,7 @@ a {
 }
 
 nav {
-  background: #1fb994;
+  background: rgb(31, 185, 148);
   background: -webkit-gradient(linear, left top, right top, from(rgba(31, 185, 148, 0)), color-stop(40%, rgba(106, 228, 199, 0.5550595238)), color-stop(61%, rgba(138, 223, 203, 0.6362920168)), to(rgba(31, 185, 148, 0)));
   background: linear-gradient(90deg, rgba(31, 185, 148, 0) 0%, rgba(106, 228, 199, 0.5550595238) 40%, rgba(138, 223, 203, 0.6362920168) 61%, rgba(31, 185, 148, 0) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1fb994",endColorstr="#1fb994",GradientType=1);
@@ -545,9 +545,9 @@ nav[data-selected-link="/contact"] a:nth-child(5) {
 }
 
 .online-consultation-text-side {
-  background: white;
-  background: -webkit-gradient(linear, left top, right top, color-stop(18%, rgba(255, 255, 255, 0)), color-stop(27%, rgba(249, 249, 249, 0.8463760504)), color-stop(36%, whitesmoke));
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 18%, rgba(249, 249, 249, 0.8463760504) 27%, whitesmoke 36%);
+  background: rgb(255, 255, 255);
+  background: -webkit-gradient(linear, left top, right top, color-stop(18%, rgba(255, 255, 255, 0)), color-stop(27%, rgba(249, 249, 249, 0.8463760504)), color-stop(36%, rgb(245, 245, 245)));
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 18%, rgba(249, 249, 249, 0.8463760504) 27%, rgb(245, 245, 245) 36%);
   padding: 5% 20% 5% 0%;
   width: 80%;
   border-radius: clamp(25px, 5vw, 5vw);
@@ -578,13 +578,13 @@ nav[data-selected-link="/contact"] a:nth-child(5) {
   padding: 7%;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  -webkit-box-shadow: 0 0 3vw 3px #f5f5f5, 0 0.6vw 1.5vw #fad264d2;
-          box-shadow: 0 0 3vw 3px #f5f5f5, 0 0.6vw 1.5vw #fad264d2;
+  -webkit-box-shadow: 0 0 3vw 3px #f5f5f5, 0 0.6vw 1.5vw rgba(250, 210, 100, 0.8235294118);
+          box-shadow: 0 0 3vw 3px #f5f5f5, 0 0.6vw 1.5vw rgba(250, 210, 100, 0.8235294118);
 }
 .online-consultation-text-side button:hover {
   background-color: #f9a81b;
-  -webkit-box-shadow: 0 0 3vw 3px #f5f5f5, 0 0.6vw 1.5vw #fad264d2;
-          box-shadow: 0 0 3vw 3px #f5f5f5, 0 0.6vw 1.5vw #fad264d2;
+  -webkit-box-shadow: 0 0 3vw 3px #f5f5f5, 0 0.6vw 1.5vw rgba(250, 210, 100, 0.8235294118);
+          box-shadow: 0 0 3vw 3px #f5f5f5, 0 0.6vw 1.5vw rgba(250, 210, 100, 0.8235294118);
 }
 .online-consultation-text-side button:hover span i {
   -webkit-transform: translateX(0) scale(1);

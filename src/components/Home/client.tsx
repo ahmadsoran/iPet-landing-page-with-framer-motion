@@ -6,11 +6,11 @@ import "swiper/css/effect-fade";
 import { Pagination, Navigation } from "swiper";
 import Cards from './cards';
 import { Rating } from 'react-simple-star-rating'
-import WithPet1 from '../assets/img/henru.jpg'
-import WithPet2 from '../assets/img/PEQthBVe-image-via-youtube.jpg'
-import WithPet3 from '../assets/img/womencat.jpg'
-import WithPet4 from '../assets/img/womenWithcat.jpg'
-import WithPet5 from '../assets/img/manwithdog.jpg'
+import WithPet1 from '../../assets/img/henru.jpg'
+import WithPet2 from '../../assets/img/PEQthBVe-image-via-youtube.jpg'
+import WithPet3 from '../../assets/img/womencat.jpg'
+import WithPet4 from '../../assets/img/womenWithcat.jpg'
+import WithPet5 from '../../assets/img/manwithdog.jpg'
 export default function Client() {
     return (
         <section className='my-container' id='section--5'>

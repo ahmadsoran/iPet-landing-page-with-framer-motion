@@ -82,11 +82,7 @@ export default function Footer() {
                 <p>privce police</p>
                 <p>&copy; {new Date(Date.now()).getFullYear()} iPet veterinary </p>
             </div>
-            <div className="alert">
-                <p>this website made only for training purposes designed by  <strong>
-                    Ann Ivanovskaya
-                </strong> see the project <a href="https://www.behance.net/gallery/137444749/Veterinary-Clinic-Landing-Page?tracking_source=search_projects%7Cwebsite%20web%20design" rel='noreferrer' target={'_blank'}>here</a>, built with react js by <a href="https://www.ahmadsoran.com" rel='noreferrer' target={'_blank'}>Ahmed Soran</a></p>
-            </div>
+
         </footer>
     )
 }
