@@ -11,9 +11,13 @@ import WithPet2 from '../../assets/img/PEQthBVe-image-via-youtube.jpg'
 import WithPet3 from '../../assets/img/womencat.jpg'
 import WithPet4 from '../../assets/img/womenWithcat.jpg'
 import WithPet5 from '../../assets/img/manwithdog.jpg'
+import { motion } from 'framer-motion'
 export default function Client() {
     return (
-        <section className='my-container' id='section--5'>
+        <motion.section initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: .5 }} className='my-container' id='section--5'>
 
             <i className="fa-solid fa-paw sliderPaw1"></i>
 
@@ -86,6 +90,6 @@ export default function Client() {
 
 
             </main>
-        </section>
+        </motion.section>
     )
 }

@@ -1,8 +1,8 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 export default function ContactForm() {
-      return (
-            <motion.section
+    return (
+        <motion.section
             tial={{ opacity: 0 }}
             te={{ opacity: 1 }}
             exit={{ opacity: 0 }}

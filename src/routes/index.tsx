@@ -7,6 +7,9 @@ import NotFound404 from '../components/root/NotFound404'
 import Home from './home'
 import { AnimatePresence } from 'framer-motion'
 import AboutPage from './about'
+import Services from '../components/Home/services'
+import Client from '../components/Home/client'
+import ContactForm from '../components/contact/contact-form'
 export default function IndexRoutes() {
     const locations = useLocation()
     return (
@@ -17,6 +20,9 @@ export default function IndexRoutes() {
                 <Routes location={locations} key={locations.pathname}>
                     <Route path='/' element={<Home />} />
                     <Route path='/about' element={<AboutPage />} />
+                    <Route path='/service' element={<Services />} />
+                    <Route path='/review' element={<Client />} />
+                    <Route path='/contact' element={<ContactForm />} />
                     <Route path='*' element={<NotFound404 />} />
                 </Routes>
             </AnimatePresence>
