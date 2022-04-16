@@ -1,10 +1,10 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 export default function ContactForm() {
-    return (
-        <motion.section
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
+      return (
+            <motion.section
+            tial={{ opacity: 0 }}
+            te={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ duration: .5 }}
             id="section--form">
