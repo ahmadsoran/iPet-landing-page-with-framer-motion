@@ -1101,16 +1101,26 @@ nav[data-selected-link='/contact'] {
 }
 
 .about {
-    padding: 5% 0;
+    padding: 5%;
 
     h1 {
         font-size: $h1;
-        color: $dark-green;
+        color: gray;
+        margin: 2%
     }
 
-    span {
+    p {
         font-size: $h6;
-        color: gray;
+        margin: 2%
+    }
+
+    button {
+        margin: 2%
+    }
+
+    img {
+        width: 100%;
+        border-radius: 2vw;
     }
 
     a {

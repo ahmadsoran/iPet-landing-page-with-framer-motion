@@ -998,15 +998,23 @@ nav[data-selected-link="/contact"] a:nth-child(5) {
 }
 
 .about {
-  padding: 5% 0;
+  padding: 5%;
 }
 .about h1 {
   font-size: clamp(2.2rem, 2.2vw, 2.2vw);
-  color: #21a183;
-}
-.about span {
-  font-size: clamp(1rem, 1vw, 1vw);
   color: gray;
+  margin: 2%;
+}
+.about p {
+  font-size: clamp(1rem, 1vw, 1vw);
+  margin: 2%;
+}
+.about button {
+  margin: 2%;
+}
+.about img {
+  width: 100%;
+  border-radius: 2vw;
 }
 .about a {
   font-size: clamp(1rem, 1vw, 1vw);
